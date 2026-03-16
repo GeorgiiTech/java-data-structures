@@ -1,10 +1,17 @@
-# Lesson 5: Binary Search Trees - Insert, Search, and Delete Visualized
+# Lesson 5: Binary Search Trees — Insert, Search, and Delete Visualized
 
-> Back to Course: https://georgii.tech/courses/java-data-structures-a-deep-dive-with-visualizations
+> 📚 [Back to Course](https://georgii.tech/courses/java-data-structures-a-deep-dive-with-visualizations) | [Course Repo](../../README.md)
 
-## Overview
+Master Binary Search Trees from the ground up. See every operation — insert, search, delete — drawn out step by step with tree diagrams. Understand tree traversals (inorder, preorder, postorder) and why balance determines performance.
 
-Binary Search Trees (BSTs) bring order to your data. Each node's left subtree holds smaller values and right subtree holds larger values. Learn how to insert, search, and delete nodes - all with O(log n) average complexity.
+## Big-O Summary
+
+| Operation | BST (balanced) | BST (worst) |
+|-----------|---------------|-------------|
+| Search | O(log n) | O(n) |
+| Insert | O(log n) | O(n) |
+| Delete | O(log n) | O(n) |
+| Traversal | O(n) | O(n) |
 
 ## What you'll learn
 
@@ -16,5 +23,7 @@ Binary Search Trees (BSTs) bring order to your data. Each node's left subtree ho
 
 ## Run the code
 
+```bash
 javac BinarySearchTrees.java
 java BinarySearchTrees
+```
